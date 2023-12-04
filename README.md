@@ -1,7 +1,8 @@
-# 2023 F2E WEEK1
+# 2023 F2E WEEK2
 
 ## Build tools
 * Vue3
 * Nuxt3
 * EsLint
-* BootStrap
+* Tailwindcss
+* d3.js
