@@ -1,25 +1,20 @@
 <template>
   <div class="h-screen">
-    <!-- <Loading v-if="loading"> -->
-      <NuxtLayout>
-        <NuxtPage />
-      </NuxtLayout>
-    <!-- </Loading> -->
+    <Loading  v-if="loading" />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
 
 <script setup>
-import Loading from '@/layouts/loading.vue'
-
-
+import Loading from "@/layouts/loading.vue";
 const nuxtApp = useNuxtApp();
-const loading = ref(false);
+const loading = ref(true);
 nuxtApp.hook("page:start", () => {
-  console.log(0)
   loading.value = true;
 });
 nuxtApp.hook("page:finish", () => {
-  console.log(1)
   loading.value = false;
 });
 </script>

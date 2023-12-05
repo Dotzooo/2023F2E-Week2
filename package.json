@@ -11,6 +11,8 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@nuxt/image": "^1.1.0",
+    "@nuxt/image-edge": "1.1.0-28355789.b3279fe",
     "@nuxtjs/tailwindcss": "^6.10.1",
     "eslint": "^8.53.0",
     "eslint-plugin-nuxt": "^4.0.0",

@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <Map></Map>
+    <!-- <Map></Map> -->
   </div>
 </template>
 
