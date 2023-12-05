@@ -73,6 +73,13 @@ module.exports = {
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
       },
+      fontSize: {
+        // 載入
+        load_b_30: ['30px'],
+        xl_load_b_60: ['60px'],
+        load_b_20: ['20px'],
+        xl_load_b_40: ['40px'],
+      },
       fontWeight: {
         regular: 400,
         medium: 500,
