@@ -1,6 +1,6 @@
 <template>
   <div class="h-screen">
-    <Loading  v-if="loading" />
+    <Loading v-if="loading" />
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
