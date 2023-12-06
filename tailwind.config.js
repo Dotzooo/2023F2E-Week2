@@ -75,16 +75,27 @@ module.exports = {
       },
       fontSize: {
         // 載入
-        load_b_30: ['30px'],
-        xl_load_b_60: ['60px'],
-        load_b_20: ['20px'],
-        xl_load_b_40: ['40px'],
+        load_b_30: ['30px', '30px'],
+        xl_load_b_60: ['60px', '60px'],
+        load_b_20: ['20px', '20px'],
+        xl_load_b_40: ['40px', '40px'],
+        // Nav
+        nav_title: ['14px', '14px'],
+        xl_nav_title: ['20px', '20px'],
+        nav_num: ['32px', '32px']
       },
       fontWeight: {
         regular: 400,
         medium: 500,
         semibold: 600,
         bold: 700,
+      },
+      padding: {
+        27: '27px',
+        60: '60px'
+      },
+      flexBasis: {
+        15: '78px'
       }
     },
   },
