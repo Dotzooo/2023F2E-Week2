@@ -1,6 +1,9 @@
 <template>
-  <div class="">
-    <!-- <Map></Map> -->
+  <div class="h-screen bg-MyColor-BlueGray-600">
+    <div>
+      <SearchBar class="block xl:hidden" />
+    </div>
+    <Map />
   </div>
 </template>
 
